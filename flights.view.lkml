@@ -63,7 +63,7 @@ view: flights {
 
   dimension: route {
     type: string
-    sql: concat(${origin}, '-', ${destination})  ;;
+    sql: concat(${origin}, '-', ${destination} )  ;;
   }
 
   measure: flight_count {
